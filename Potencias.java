@@ -5,7 +5,7 @@ public class Potencias{
 		Scanner in = new Scanner(System.in);
 		int numero, cuadrado, cubo, cuarta, quinta;
 
-		System.out.print("Ingrese un numero: ");
+		System.out.print("Ingrese un numero entre 1 y 25: ");
 		numero = in.nextInt();
 
 		if (numero>=1 && numero<=25){
@@ -19,7 +19,9 @@ public class Potencias{
 			System.out.println("El cubo es: " + cubo);
 			System.out.println("La cuarta es: " + cuarta);
 			System.out.println("La quinta es: " + quinta); 
-			}			
+			} else {
+			System.out.println("Te saliste del rango"); 
+		}
 	}
 }
 
