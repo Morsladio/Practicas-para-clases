@@ -1,3 +1,4 @@
+//Programa que junta 10 numeros y los suma
 import java.util.Scanner;
 
 public class sumadediez{
